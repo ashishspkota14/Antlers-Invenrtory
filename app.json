@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Antlers Inventory",
+    "slug": "antlers-inventory",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aashishsapkota.antlersinventory"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1A1410",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.aashishsapkota.antlersinventory"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {}
+      ]
+    ],
+    "scheme": "antlersinventory",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
